@@ -1,0 +1,30 @@
+{
+  "name": "@gubinski/vlogger-lib",
+  "version": "0.0.1",
+  "description": "A simple logging framework for TS (web)applications",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggubninski/vlogger-lib.git"
+  },
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "typescript",
+    "logger",
+    "logging"
+  ],
+  "author": "Grzegorz Gubiński <gubinski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ggubninski/vlogger-lib/issues"
+  },
+  "homepage": "https://github.com/ggubninski/vlogger-lib#readme"
+}

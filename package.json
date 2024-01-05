@@ -1,0 +1,26 @@
+{
+  "name": "gubinski",
+  "version": "1.0.0",
+  "repository": "git@monsterlessonsacademy.github.com:monsterlessonsacademy/monsterlessonsacademy.git",
+  "author": "Grzegorz Gubinski <gubinski@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "compile:6": "rm -rf dist/lib && tsc ",
+    "compile:5": "rm -rf dist/lib && tsc --build tsconfig.es5.json",
+    "compile:all": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/uuid": "^9.0.7",
+    "jsdom": "^23.0.1",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0",
+    "vitest": "^1.1.3"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "uuid": "^9.0.1"
+  }
+}
